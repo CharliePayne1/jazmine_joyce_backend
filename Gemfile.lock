@@ -56,10 +56,8 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    bcrypt-ruby (3.0.1)
-    bcrypt-ruby (3.0.1-java)
-    bcrypt-ruby (3.0.1-x86-mingw32)
-    bcrypt-ruby (3.0.1-x86-mswin32-60)
+    bcrypt (3.1.15)
+    bcrypt (3.1.15-java)
     bootsnap (1.4.7)
       msgpack (~> 1.0)
     bootsnap (1.4.7-java)
@@ -180,7 +178,7 @@ PLATFORMS
   x86-mswin32
 
 DEPENDENCIES
-  bcrypt-ruby (~> 3.0.0)
+  bcrypt
   bootsnap (>= 1.4.2)
   byebug
   listen (~> 3.2)
